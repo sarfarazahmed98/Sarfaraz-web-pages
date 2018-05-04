@@ -1,0 +1,78 @@
+<html>
+<head>
+<style>
+input[type="number"]::-webkit-outer-spin-button,input[type="number"]::-webkit-inner-spin-button 
+{
+    -webkit-appearance:none;
+    margin:0;
+}
+</style>
+</head>
+<body>
+<center>
+<div style="border-color:darkblue;background-color:lightblue;border-width:3px;border-style:solid;width:700;height:380;margin-left:50;">
+<form name="form2" id="regform" action="register.php" method="post">
+<fieldset style="width:500">
+<legend><h4>Candidate's Registration</h4></legend>
+<table>
+<tr>
+<td>Login ID No:</td>
+<td><input type="text" name="t1" maxlength="10" required></td>
+</tr>
+<tr>
+<td>Hall Ticket No:</td>
+<td><input type="text" name="t2" maxlength="10" required></td>
+</tr>
+<tr>
+<td>Password:</td>
+<td><input type="password" name="t3" required></td>
+</tr>
+<tr>
+<td>Date of Birth:</td>
+<td><input type="date" name="t4" required></td>
+</tr>
+<tr>
+<td>Candidate's Name:</td>
+<td><input type="text" name="t5" required></td>
+</tr>
+<tr>
+<td>Father's Name:</td>
+<td><input type="text" name="t6" required></td>
+</tr>
+<tr>
+<td>Gender:</td>
+<td><input type="radio" name="t7" value="Male" required>Male
+<input type="radio" name="t7" value="Female" required>Female</td>
+</tr>
+<tr>
+<td>Rank:</td>
+<td><input type="number" name="t8" required></td>
+</tr>
+<tr>
+<td>Caste:</td>
+<td><select name="t9" required>
+<option value="BC-A">BC-A</option>
+<option value="BC-B">BC-B</option>
+<option value="BC-C">BC-C</option>
+<option value="BC-D">BC-D</option>
+<option value="BC-E">BC-E</option>
+<option value="SC">SC</option>
+<option value="ST">ST</option>
+<option value="GEN">GEN</option>
+</select>
+</td>
+</tr>
+<tr>
+<td>Physically Handicapped:</td>
+<td><input type="radio" name="t10" value="Yes" required>Yes
+<input type="radio" name="t10" value="No" required>No</td>
+</tr>
+</table><br>
+<input type="submit" value="Register" name="submit">
+<input type="reset" value="Reset">
+</fieldset>
+</form>
+</div>
+</center>
+</body>
+</html>

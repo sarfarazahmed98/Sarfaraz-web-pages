@@ -1,0 +1,18 @@
+<html>
+<head>
+<script>
+function blinktext() {
+  var f = document.getElementById('blnk');
+  setInterval(function() {
+    f.style.visibility = (f.style.visibility == 'hidden' ? '' : 'hidden');
+  }, 500);
+}
+</script>
+</head>
+<body onload="blinktext();">
+<br>
+<p style="color:green;font-size:16pt;text-align:center">Successfully logged out...Close the Browser window properly...</p>
+<br><br><br><br><br>
+<b><p style="color:red;font-size:30;text-align:center" id="blnk">SATE-2018</p></b>
+</body>
+</html>
